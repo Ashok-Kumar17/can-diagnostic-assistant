@@ -1,7 +1,9 @@
 # CAN Bus Diagnostic Assistant
 
 An LLM agent that diagnoses vehicle faults by reasoning over decoded CAN bus
-signals — not by chatting with documents. Ask a question in plain English
+signals — not by chatting with documents.
+> Companion project: [can-telemetry-dashboard](https://github.com/Ashok-Kumar17/can-telemetry-dashboard) — a real-time async dashboard for *watching* CAN signals live as they happen, versus this project's after-the-fact diagnostic Q&A over a completed log.
+Ask a question in plain English
 ("why did the controller overheat fault occur?") and the model calls
 real signal-lookup tools to retrieve actual decoded values and DTC (Diagnostic
 Trouble Code) events, then explains the fault grounded in that data.

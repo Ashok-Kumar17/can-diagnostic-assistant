@@ -1,4 +1,7 @@
 # CAN Bus Diagnostic Assistant
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat&logo=anthropic&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 An LLM agent that diagnoses vehicle faults by reasoning over decoded CAN bus
 signals — not by chatting with documents.
